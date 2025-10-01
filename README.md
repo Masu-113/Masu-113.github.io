@@ -1,13 +1,3 @@
-layout: default
-<!-- Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Plataforma-Windows-blue?style=flat-square" alt="Windows">
-  <img src="https://img.shields.io/badge/Tauri-v2.x-orange?style=flat-square" alt="Tauri v2">
-  <img src="https://img.shields.io/badge/Licencia-Pendiente-lightgrey?style=flat-square" alt="Licencia">
-  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-yellow?style=flat-square" alt="Estado">
-</p>
-
----
 
 ## Tabla de contenido
 
