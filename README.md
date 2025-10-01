@@ -1,4 +1,25 @@
-layout: defualt
+---
+layout: default
+---
+
+# Bienvenido a NetPort
+
+Aplicación de escritorio para Windows, visualizar y modificar configuraciones de puertos de red.
+
+## Características
+
+- Visualización de puertos
+- Modificación de configuraciones
+- Interfaz fácil de usar
+
+{% if site.show_downloads %}
+<ul class="downloads">
+  <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+  <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+  <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+</ul>
+{% endif %}
+
 ## Tabla de contenido
 
 1. [Introducción](#netport-configurator)
