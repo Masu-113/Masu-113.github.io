@@ -1,16 +1,4 @@
-<!-- Logo del proyecto -->
-<p align="center">
-  <img src="assets/logoNetPort.png" alt="NetPort Configurator Logo" width="350">
-</p>
-
----
-
-<h1 align="center">NetPort Configurator</h1>
-
-<p align="center">
-  Aplicación de escritorio para <b>Windows</b> desarrollada con <b>Tauri</b> y <b>HTML/CSS/JavaScript</b> para visualizar y modificar configuraciones de puertos de red.
-</p>
-
+layout: default
 <!-- Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Plataforma-Windows-blue?style=flat-square" alt="Windows">
