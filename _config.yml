@@ -5,5 +5,3 @@ plugins:
   - jekyll-remote-theme
 show_downloads: true
 logo: assets/logoNetPort.png
-github:
-  zip: https://github.com/Masu-113/NetPort-Configurator

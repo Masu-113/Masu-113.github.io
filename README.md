@@ -1,4 +1,4 @@
-
+layout: defualt
 ## Tabla de contenido
 
 1. [Introducción](#netport-configurator)
