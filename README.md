@@ -81,15 +81,19 @@ Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
 ## Instalación para desarrollo
 
 1. **Clonar el repositorio**
-   ```bash
+
+
    git clone https://github.com/usuario/netport-configurator.git
    cd netport-configurator
 
 2. **Instalar Dependencias**
-    ```bash
+
+
     npm install
+
 3. **Ejecutar modo desarrollo**
-    ```bash
+
+
     npm run tauiri dev
 
 ---
@@ -103,13 +107,15 @@ La aplicacion de tauri por defecto ya trae iconos, para ocupar iconos personaliz
 2. **Pagina de donde saque el icono de mi aplicacion: [icon-icons.com](https://icon-icons.com/).**
 
 3. **Ocupar el comando:**
-    ```bash
+
+
     npm run tauri icon --source ./src-tauri/icons/nombre_archivo.ico
 
 Este comando selecciona una imagen.ico personalizada que se haya descargado o creado, crea varias versiones del icono en distintos tamaños para utilizarlos en la aplicacion, genera un archivo `.icns` y carpetas con iconos para android y ios.
 
 4. **Una vez generados los iconos que se utilizaran se debe de modificar el archivo `tuari.conf.json`**
-    ```bash
+
+
     {
         "bundle": {
             "icon": [
@@ -121,6 +127,7 @@ Este comando selecciona una imagen.ico personalizada que se haya descargado o cr
             ]
         }
     }
+
 
 5. **Se recomienda que la salida coincida al menos con tauri icon: `32x32.png` , `128x128.png` , `128x128@2x.png` y `icon.png.` .**
 
@@ -137,11 +144,16 @@ Este comando selecciona una imagen.ico personalizada que se haya descargado o cr
 Ejemplos: 
 
 1. 
-   ```bash 
+
+
     runas /noprofile /user:mymachine\NameUser /savedcred "ruta_mi_archivo.exe"
+
+
 2. 
-    ```bash
+
+
     runas /noprofile /user:mydomain\NameUser /savedcred "ruta_mi_archivo.exe"
+
 
 - Configura el acceso directo para que no solicite credenciales cada vez (usando almacenamiento seguro de credenciales de Windows).
 
@@ -184,7 +196,8 @@ Para compilar si esta utilizando Linux o Mac, seguir la [documentación oficial 
 - **Notas al realizar el empaquetamiento:**
 
     1. **Al utilizar archivos externos como: `.ps1` se debe de modificar el `tauri.conf.json` de la siguiente manera:**
-        ```bash
+
+
         "bundle": {
         "active": true,
         "targets": "all",
