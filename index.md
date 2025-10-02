@@ -301,6 +301,9 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 <ul class="downloads">
   <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.0.0_x64-setup.zip">NetPortV1.0 <strong>ZIP File</strong></a></li>
   <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.1.0_x64-setup.zip">NetportV1.1 <strong>ZIP File</strong></a></li>
+  <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.0.0_x64-setup.zip">NetPortV1.0 <strong>ZIP File</strong></a></li>
+  <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.1.0_x64-setup.zip">NetportV1.1 <strong>ZIP File</strong></a></li>
+  
 </ul>
 {% endif %}
 
