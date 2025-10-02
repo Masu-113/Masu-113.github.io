@@ -134,15 +134,15 @@ Ejemplos:
 
 Generar ejecutable para Windows:
 
-    ```cmd
+    ```json
     npm run tauri build
     ```
 
 Compilacion cruzada
 
-    ```powershell
+
     cargo-xwin.exe rustc --target x86_64-pc-windows-msvc
-    ```
+    
 
 Este comando realiza una compilación cruzada de un proyecto Rust para el x86_64-pc-windows-msvc
 
@@ -244,9 +244,11 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 1. **Rutas a archivos externos.**
 
     - Se recomienda que al declarara la ruta del archivo que se manda a llamar en el lib.rs sean declaradas de la siguiente manera:
-        ```bash
+        
+        ```json
         let script_path = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../ruta_del_archivo");
-    
+        ```
+
     - Ya que al empaquetar el proyecto la aplicacion al ejecutar esa funcion buscara el archivo en la ruta en que se especifico y sino la encuentra mostrara error (Esto solo si el instalador crea los archivos junto el aplicativo).
 
 2. **Permisos elevados.**
