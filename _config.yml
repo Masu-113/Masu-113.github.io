@@ -1,8 +1,17 @@
+# Favicon es para el icono del sitio web
 favicon: assets/icon.ico
+# Configuracion de titulo y descripcion del sitio web
 title: NetPort - Configurator
 description: Aplicación de escritorio para Windows, visualizar y modificar configuraciones de puertos de red.
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+# Muestra el apartado de descargas
 show_downloads: true
+# Muestra el logo en la pagina
 logo: assets/logoNetPort.png
+# configuracion del footer
+extra_footer: "
+  <p style='text-align: center; font-size: 0.8em;'>
+    &copy; 2023 - 2024 <a href='https://masu-113.github.io' target='_blank'>Masu-113</a>. Todos los derechos reservados.
+  </p>"
