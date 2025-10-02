@@ -190,32 +190,32 @@ Para compilar si esta utilizando Linux o Mac, seguir la [documentación oficial 
 
 Los instaladores generados despues de realizar el empaquetamiento tienen un diseño y caracteristicas por defecto, para realizar personalizar estos instaladores se requeiere modificar el archivo `tauri.conf.json` del proyecto.
     
-```json
-    "windows": {
-      "allowDowngrades": true,
-      "certificateThumbprint": null,
-      "digestAlgorithm": null,
-      "nsis":{
-        "sidebarImage": "icons/DialogImagePath.bmp",
-        "installMode": "perMachine",
-        "languages": ["spanish"],
-        "startMenuFolder": "NetPort-app",
-        "installerIcon": "icons/icon.ico"
-      },
-      "signCommand": null,
-      "timestampUrl": null,
-      "tsp": false,
-      "webviewInstallMode": {
-        "silent": true,
-        "type": "embedBootstrapper"
-      },
-      "wix": {
-        "language": "es-ES",
-        "bannerPath": "icons/bannerPath.png",
-        "dialogImagePath": "icons/DialogImagePath.png"
-      }
-    }
-```
+    ```json
+        "windows": {
+        "allowDowngrades": true,
+        "certificateThumbprint": null,
+        "digestAlgorithm": null,
+        "nsis":{
+            "sidebarImage": "icons/DialogImagePath.bmp",
+            "installMode": "perMachine",
+            "languages": ["spanish"],
+            "startMenuFolder": "NetPort-app",
+            "installerIcon": "icons/icon.ico"
+        },
+        "signCommand": null,
+        "timestampUrl": null,
+        "tsp": false,
+        "webviewInstallMode": {
+            "silent": true,
+            "type": "embedBootstrapper"
+        },
+        "wix": {
+            "language": "es-ES",
+            "bannerPath": "icons/bannerPath.png",
+            "dialogImagePath": "icons/DialogImagePath.png"
+            }
+        }
+    ```
 
 Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revisar la estrucuturacion del archivo `tauri.conf.json` ya que esto puede generar errores y que no reconozca algunas propiedades. Para modificar el instalador `.exe` modificar el apartado de **nsis** y para modificar el instalador `.msi` modificar el apartado de **wix**.
 
