@@ -134,9 +134,9 @@ Ejemplos:
 
 Generar ejecutable para Windows:
 
-    ```json
+
     npm run tauri build
-    ```
+    
 
 Compilacion cruzada
 
