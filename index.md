@@ -29,7 +29,7 @@ Incluye scripts **PowerShell (.ps1)** integrados que se ejecutan con permisos el
 
 ---
 
-## Requisitos previos {#registro-previo}
+## Requisitos previos {#requisito-previo}
 
 Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
 
