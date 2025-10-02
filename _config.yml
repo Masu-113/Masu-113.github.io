@@ -1,6 +1,7 @@
 # Favicon es para el icono del sitio web
 favicon: assets/icon.ico
 # Configuracion de titulo y descripcion del sitio web
+title: ""
 description: Aplicación de escritorio para Windows, visualizar y modificar configuraciones de puertos de red.
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
