@@ -8,6 +8,7 @@
 {% seo %}
     <link rel="icon" href="assets/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="style.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -34,8 +35,8 @@
       <!---------- Apartado de downloads ---------->
         {% if site.show_downloads %}
         <ul class="downloads">
-          <summary>
-            <div>
+          <summary class="download-summary">
+            <div class="accordion-container">
               <ul>
                 <li><a href="{{}}">Download <strong>TAR Ball</strong></a></li>
                 <li><a href="">View On <strong>GitHub</strong></a></li>
