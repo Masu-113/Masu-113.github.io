@@ -77,9 +77,11 @@ La aplicacion de tauri por defecto ya trae iconos, para ocupar iconos personaliz
 
 Este comando selecciona una imagen.ico personalizada que se haya descargado o creado, crea varias versiones del icono en distintos tamaños para utilizarlos en la aplicacion, genera un archivo `.icns` y carpetas con iconos para android y ios.
 
+
+```markdown
 4. **Una vez generados los iconos que se utilizaran se debe de modificar el archivo `tuari.conf.json`**
 
-
+    ```json
     {
         "bundle": {
             "icon": [
@@ -91,7 +93,7 @@ Este comando selecciona una imagen.ico personalizada que se haya descargado o cr
             ]
         }
     }
-
+     ```
 
 5. **Se recomienda que la salida coincida al menos con tauri icon: `32x32.png` , `128x128.png` , `128x128@2x.png` y `icon.png.` .**
 

@@ -34,13 +34,15 @@
         <p><small>Responsable del diseño y logo &mdash; <a href="https://www.instagram.com/yelyaly14?igsh=YWlrMHVncjZ5MGVh">Yelizabeth Danyali Ninoska Diaz Montano</a></small></p>
       
         <!---------- Apartado de downloads ---------->
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ "/" | relative_url }}#changelog">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Masu-113/NetPort-Configurator">View Repository<strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+        <div>
+          {% if site.show_downloads %}
+            <ul class="downloads">
+              <li><a href="{{ "/" | relative_url }}#changelog">Download <strong>ZIP File</strong></a></li>
+              <li><a href="{{ }}">Download <strong>TAR Ball</strong></a></li>
+              <li><a href="https://github.com/Masu-113/NetPort-Configurator">View Repository<strong>GitHub</strong></a></li>
+            </ul>
+          {% endif %} 
+        </div> 
 
         <div>
           <ul>
