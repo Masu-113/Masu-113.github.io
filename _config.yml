@@ -10,8 +10,3 @@ plugins:
 show_downloads: true
 # Muestra el logo en la pagina
 logo: assets/logoNetPort.png
-# configuracion del footer
-extra_footer: "
-  <p style='text-align: center; font-size: 0.8em;'>
-    &copy; 2023 - 2024 <a href='https://masu-113.github.io' target='_blank'>Masu-113</a>. Todos los derechos reservados.
-  </p>"
