@@ -288,6 +288,3 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 
 
 ---
-
-- **Marlon José Suárez Baltodano**: Desarrollador principal.
-- **Yelizabeth Danyali Ninoska Diaz Montano**: Responsable del diseño del logo eh icono del proyecto. [instagram](https://www.instagram.com/yelyaly14?igsh=YWlrMHVncjZ5MGVh)
