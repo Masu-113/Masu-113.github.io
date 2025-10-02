@@ -133,15 +133,19 @@ Ejemplos:
 ## Compilación para distribución {#compilacion-distribucion}
 
 Generar ejecutable para Windows:
+
     ```powershell
-    npm run tauri build
+        npm run tauri build
     ```
+
 Compilacion cruzada
 
     ```powershell
-    cargo-xwin.exe rustc --target x86_64-pc-windows-msvc
+        cargo-xwin.exe rustc --target x86_64-pc-windows-msvc
     ```
+
 Este comando realiza una compilación cruzada de un proyecto Rust para el x86_64-pc-windows-msvc
+
 
 El archivo resultante estara en:
     
