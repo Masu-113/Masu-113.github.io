@@ -294,7 +294,7 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 
 ---
 
-## Changelog
+## Changelog {#changelog}
 **Para ver las versiones y cambios, consulta el archivo [changelog.md](https://github.com/Masu-113/NetPort-Configurator/blob/develop/CHANGELOG.md).**
 
 ---
