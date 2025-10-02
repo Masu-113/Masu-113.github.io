@@ -1,4 +1,4 @@
-favicon: assets/Square310x310Logo.png
+favicon: assets/icon.ico
 title: NetPort - Configurator
 description: Aplicación de escritorio para Windows, visualizar y modificar configuraciones de puertos de red.
 remote_theme: pages-themes/minimal@v0.2.0
