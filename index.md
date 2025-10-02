@@ -2,24 +2,7 @@
 layout: default
 ---
 
-## Tabla de contenido
-
-1. [Introducción](#netport-configurator)
-2. [Características](#características)
-3. [Requisitos previos](#requisitos-previos)
-4. [Instalación para desarrollo](#instalación-para-desarrollo)
-5. [Modificar Iconos de la Aplicación](#modificar-iconos-de-la-aplicacion)
-6. [Recomendaciones de uso](#recomendaciones-de-uso)
-7. [Compilación para distribución](#compilación-para-distribución)
-8. [Instaladores](#instaladores)
-9. [Notas sobre la aplicación](#notas-sobre-la-aplicacion)
-10. [Estructura del Proyecto](#estructura-del-proyecto)
-11. [Changelog](#changelog)
-11. [Creditos](#creditos)
-
----
-
-# NetPort Configurator
+# NetPort Configurator {#netport-cofigurator}
 
 Aplicación de escritorio para **Windows**, desarrollada con **Tauri** y **HTML/CSS/JavaScript**, diseñada para visualizar y modificar configuraciones de puertos de red de manera sencilla a través de una interfaz gráfica.
 
@@ -35,7 +18,7 @@ Incluye scripts **PowerShell (.ps1)** integrados que se ejecutan con permisos el
 
 ---
 
-## Características
+## Características {#caracteristicas}
 
 - Visualización de puertos de red disponibles en el equipo.
 - Configuración rápida de VLAN ID, IP, máscara y gateway.
@@ -46,7 +29,7 @@ Incluye scripts **PowerShell (.ps1)** integrados que se ejecutan con permisos el
 
 ---
 
-## Requisitos previos
+## Requisitos previos {#registro-previo}
 
 Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
 
@@ -59,7 +42,7 @@ Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## Instalación para desarrollo
+## Instalación para desarrollo {#instalacion}
 
 1. **Clonar el repositorio**
 
@@ -79,7 +62,7 @@ Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## Modificar Iconos de la Aplicacion
+## Modificar Iconos de la Aplicacion {#modificacion-iconos}
 
 La aplicacion de tauri por defecto ya trae iconos, para ocupar iconos personalizados:
 
@@ -116,7 +99,7 @@ Este comando selecciona una imagen.ico personalizada que se haya descargado o cr
 
 ---
 
-## Recomendaciones de uso
+## Recomendaciones de uso {#recomendaciones}
 
 1. **Ejecucion con permisos elevados**
 
@@ -148,7 +131,7 @@ Ejemplos:
 
 ---
 
-## Compilación para distribución
+## Compilación para distribución {#compilacion-distribucion}
 
 Generar ejecutable para Windows:
 
@@ -204,7 +187,7 @@ Para compilar si esta utilizando Linux o Mac, seguir la [documentación oficial 
 
 ---
 
-## Instaladores
+## Instaladores {#instaladores}
 
 Los instaladores generados despues de realizar el empaquetamiento tienen un diseño y caracteristicas por defecto, para realizar personalizar estos instaladores se requeiere modificar el archivo `tauri.conf.json` del proyecto.
     
@@ -253,7 +236,7 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 
 ---
 
-## Notas sobre la aplicacion.
+## Notas sobre la aplicacion. {#notas}
 
 1. **Rutas a archivos externos.**
 
@@ -280,7 +263,7 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 
 ---
 
-## Estructura del Proyecto.
+## Estructura del Proyecto. {#estructutura-proyecto}
 
     
     ├── src/                # Archivos HTML, CSS y JS de la interfaz
@@ -301,7 +284,6 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 <ul>
   <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.0.0_x64-setup.zip"><i class="fas fa-file-download"></i> NetPortV1.0 <strong>ZIP File</strong></a></li>
   <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.1.0_x64-setup.zip"><i class="fas fa-file-download"></i>NetportV1.1 <strong>ZIP File</strong></a></li>
-  
 </ul>
 
 
