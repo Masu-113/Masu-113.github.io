@@ -93,7 +93,7 @@
 
     #indexmenu{
       list-style-type: none;
-      display: inline-table;
+      display: none;
       margin: 0;
       padding: 0;
       position: absolute;
@@ -111,18 +111,18 @@
     #indexmenu li a {
       text-decoration: none;
       color: black;
-      display: block;
+      display: inline-table;
     }
 
     #indexmenu li:hover{
       background-color: #f0f0f0;
     }
-  </style>
+  </style>SS
 
   <script>
     document.getElementById("togglemenu").onclick = function() {
       var menu = document.getElementById("indexmenu");
-      menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+      menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "inline-table" : "none";
     };
   </script>
   </body>
