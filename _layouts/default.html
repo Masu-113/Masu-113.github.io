@@ -14,6 +14,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+
+
   </head>
   <body>
     <div class="wrapper">
@@ -42,7 +44,8 @@
         </div> 
 
         <div class="navbar-nav">
-          <ul>
+          <button id="togglemenu">Indice</button>
+          <ul id="indexmenu" style="display: none;">
             <li><a href="{{ "/" | relative_url }}#netport-configurator">Introducción</a></li>
             <li><a href="{{ "/" | relative_url }}#caracteristicas">Características</a></li>
             <li><a href="{{ "/" | relative_url }}#requisito-previo">Requisitos</a></li>
@@ -71,5 +74,53 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <style>
+    .navbar-nav {
+      position: relative;
+    }
+
+    #togglemenu {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    #indexmenu{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    #indexmenu li {
+      padding: 8px 12px;
+    }
+
+    #indexmenu li a {
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
+
+    #indexmenu li:hover{
+      background-color: #f0f0f0;
+    }
+  </style>
+
+  <script>
+    document.getElementById("togglemenu").onclick = function() {
+      var menu = document.getElementById("indexmenu");
+      menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+    };
+  </script>
   </body>
 </html>
