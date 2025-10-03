@@ -285,7 +285,7 @@ Agregar esto en el `"bundle"` , una vez agregado en caso de mostrar errores revi
 ## Changelog {#changelog}
 **Para ver las versiones y cambios, consulta el archivo [changelog.md](https://github.com/Masu-113/NetPort-Configurator/blob/main/CHANGELOG.md).**
 
-## Para Windows.
+## Instalador para Windows.
 <ul>
   <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.0.0_x64-setup.zip"><i class="fas fa-file-download"></i> NetPortV1.0 <strong>ZIP File</strong></a></li>
   <li><a href="https://github.com/Masu-113/NetPort-Configurator/raw/main/exe/NetPort-app_1.1.0_x64-setup.zip"><i class="fas fa-file-download"></i> NetportV1.1 <strong>ZIP File</strong></a></li>
