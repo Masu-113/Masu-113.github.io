@@ -1,5 +1,5 @@
 # Favicon es para el icono del sitio web
-favicon: assets/NetPort_Icono.png
+favicon: assets/icon.ico
 # Configuracion de titulo y descripcion del sitio web
 title: " "
 description: Aplicación de escritorio para Windows, visualizar y modificar configuraciones de puertos de red.
