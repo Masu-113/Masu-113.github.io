@@ -14,7 +14,7 @@ Esta herramienta permite a los administradores y técnicos de redes cambiar ráp
 - **Puerta de enlace**
 - **DHCP**
 
-Incluye scripts **PowerShell (.ps1)** integrados que se ejecutan con permisos elevados para realizar las configuraciones directamente en el sistema.
+Incluye scripts **PowerShell** integrados que se ejecutan con permisos elevados para realizar las configuraciones directamente en el sistema.
 
 ---
 
@@ -22,7 +22,7 @@ Incluye scripts **PowerShell (.ps1)** integrados que se ejecutan con permisos el
 
 - Visualización de puertos de red disponibles en el equipo.
 - Configuración rápida de VLAN ID, IP, máscara y gateway.
-- Integración con scripts `.ps1` para aplicar cambios.
+- Integración con scripts de `powershell` para aplicar cambios.
 - Ejecución con permisos elevados mediante acceso directo configurado con `runas`.
 - Interfaz gráfica ligera y optimizada con HTML/CSS/JS.
 - Compatible con **Windows 10/11** (soporte para Linux/Mac con adaptación de scripts).
@@ -126,7 +126,7 @@ Ejemplos:
 - Ver VLAN ID actual.
 - Modificar IP, máscara y puerta de enlace.
 - Eliminar configuraciones realizadas a un puerto y configurarlo a defecto en DHCP
-- Guardar y aplicar cambios mediante scripts .ps1.
+- Guardar y aplicar cambios mediante scripts de powershell.
 
 ---
 
